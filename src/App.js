@@ -1,11 +1,11 @@
 import Header from './components/Header'
-
-function App() {
+import Tasks from './components/Tasks'
+const App = () => {
 
    return (
     <div className="container">
-      <h1>Hello from React</h1>
-        <Header />
+      <Header  />
+      <Tasks />
     </div>
   );
 }
